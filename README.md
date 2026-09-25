@@ -46,7 +46,7 @@ The project covers data import, data cleaning, data validation, data modeling, d
 
 ### Power BI Project File
 
-- `07_Netflix_PowerBI_Internship.pbix` – Complete Power BI project file
+- `Netflix_Content_Overview_dashboard_final.pbix` – Complete Power BI project file
 
 ## 📌 Tasks Completed
 
