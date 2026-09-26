@@ -1,85 +1,60 @@
-# Power BI Internship Project
+# Power BI Internship Project – Netflix Content Analysis
 
-## 📊 Overview
+This repository contains my Power BI internship project, built around a Netflix dataset. The internship required completing any 4 of 6 available tasks; this project covers data import and cleaning, data validation, data modeling, dashboard creation, global content analysis, and content growth and trend analysis.
 
-This repository contains my Power BI internship project based on a Netflix dataset.
+## Objectives
 
-The project covers data import, data cleaning, data validation, data modeling, dashboard creation, global content analysis, and content growth and trend analysis.
+The goal of this project was to take a raw Netflix dataset and turn it into something usable — cleaning and validating the data, building a proper data model, and then developing a set of interactive dashboards that answer real questions about the content library: how it's split between movies and TV shows, where the content comes from, and how the catalog has grown over time.
 
-## 🎯 Project Objectives
-
-- Import and clean the Netflix dataset.
-- Validate and prepare data for analysis.
-- Create a suitable data model.
-- Develop interactive Power BI dashboards.
-- Analyze Netflix content across countries and categories.
-- Study content growth and trends over time.
-- Present insights through clear data visualizations.
-
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Microsoft Power BI
 - Power Query
 - DAX
 - GitHub
-- Netflix Dataset
+- Netflix dataset (show_id, type, title, director, country, date_added, release_year, rating, duration, listed_in)
 
-## 📁 Project Files
+## Project Files
 
-### Task 1 – Data Preparation & Validation
+**Power BI file**
+- `Netflix_Content_Overview_dashboard_final_one.pbix` — the complete project file
 
-- `01 task 1_data_import_cleaning.png` – Data import and cleaning
-- `02 task 1_Model_view.png` – Power BI data model
-- `03 task 1_data_validation.png` – Data validation
+**Task 1 – Data Preparation & Validation**
+- `01 task 1_data_import_cleaning.png` — data import and cleaning in Power Query
+- `02 task 1_Model_view.png` — the data model
+- `03 task 1_data_validation.png` — validation checks after cleaning
 
-### Task 2 – Netflix Content Dashboard
+**Task 2 – Netflix Content Dashboard**
+- `04 task 2_final_dashboard.png` — final content overview dashboard
 
-- `04 task 2_final_dashboard.png` – Final Netflix content dashboard
+**Task 3 – Global Content Insights**
+- `05 task 3_global_content_insight.png` — global content analysis dashboard
 
-### Task 3 – Global Content Insights
+**Task 4 – Content Growth & Trends**
+- `06 task 4_content_growth_and_trend_analysis.png` — content growth and trend analysis
 
-- `05 task 3_global_content_insight.png` – Global content analysis dashboard
+## Tasks Completed
 
-### Task 4 – Content Growth & Trends
+**Task 1 – Data Preparation**
+Imported the raw dataset into Power BI and cleaned it up in Power Query — handled duplicates, filled in blank fields (director values that were missing got labeled "Not Given"), fixed data types, and built out the model. Ran a validation pass afterward to confirm the row counts and key fields were intact.
 
-- `06 task 4_content_growth_and_trend_analysis.png` – Content growth and trend analysis
+**Task 2 – Netflix Content Overview**
+Built the main dashboard summarizing the content library: total titles, the split between movies and TV shows, and a rating slicer covering all 14 rating categories in the dataset. Out of 8,789 titles, about 70% are movies and 30% are TV shows.
 
-### Power BI Project File
+**Task 3 – Global Content Insights**
+Analyzed how content is distributed across countries — a ranked table, a map visualization, and a bar chart, with a slicer so you can filter down to any individual country. The US and India have the largest share of titles by a fair margin.
 
-- `Netflix_Content_Overview_dashboard_final_one.pbix` – Complete Power BI project file
+**Task 4 – Content Growth & Trend Analysis**
+Looked at how the content library has grown by release year, using a time-series chart along with measures for overall growth and year-over-year change, to see which periods saw the most (and least) content added.
 
-## 📌 Tasks Completed
+## Skills Demonstrated
 
-### Task 1 – Data Preparation
+Data cleaning and transformation, data validation, data modeling, DAX measures, interactive dashboard design, and version control through GitHub.
 
-Imported, cleaned, transformed, modeled, and validated the Netflix dataset using Power Query and Power BI.
+## Conclusion
 
-### Task 2 – Netflix Content Overview
+This project walks through the full process of turning a raw dataset into a working Power BI solution — cleaning and modeling the data, then building dashboards that surface real insights about Netflix's content library, its global reach, and how it's changed over time.
 
-Created visualizations to analyze Netflix content and understand the distribution of movies and TV shows.
+---
 
-### Task 3 – Global Content Insights
-
-Analyzed Netflix content across different countries and regions using Power BI visualizations.
-
-### Task 4 – Content Growth & Trend Analysis
-
-Analyzed the growth and distribution of Netflix content over time using multiple visualizations.
-
-## 💡 Skills Demonstrated
-
-- Data Cleaning
-- Data Transformation
-- Data Validation
-- Data Modeling
-- Data Visualization
-- Dashboard Development
-- Power Query
-- DAX
-- Data Analysis
-- GitHub
-
-## 🏁 Conclusion
-
-This project demonstrates the use of Power BI to transform raw Netflix data into meaningful insights through data preparation, modeling, visualization, and dashboard development.
-
+Completed as part of the Auspify Technologies Power BI Internship Program.
