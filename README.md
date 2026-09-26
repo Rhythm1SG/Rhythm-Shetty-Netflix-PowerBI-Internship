@@ -17,7 +17,7 @@ The goal of this project was to take a raw Netflix dataset and turn it into some
 ## Project Files
 
 **Power BI file**
-- `Netflix_Content_Overview_dashboard_final_one.pbix` — the complete project file
+- `Netflix_Content_Overview_dashboard_final one.pbix` — the complete project file
 
 **Task 1 – Data Preparation & Validation**
 - `01 task 1_data_import_cleaning.png` — data import and cleaning in Power Query
