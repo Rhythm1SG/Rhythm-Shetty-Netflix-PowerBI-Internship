@@ -28,21 +28,21 @@ The project covers data import, data cleaning, data validation, data modeling, d
 
 ### Task 1 – Data Preparation & Validation
 
-- `01_Task_1_Data_Import_Cleaning.png` – Data import and cleaning
-- `02_Task_1_Model_View.png` – Power BI data model
-- `03_Task_1_Data_Validation.png` – Data validation
+- `01 task 1_data_import_cleaning.png` – Data import and cleaning
+- `02 task 1_Model_view.png` – Power BI data model
+- `03 task 1_data_validation.png` – Data validation
 
 ### Task 2 – Netflix Content Dashboard
 
-- `04_Task_2_Final_Dashboard.png` – Final Netflix content dashboard
+- `04 task 2_final_dashboard.png` – Final Netflix content dashboard
 
 ### Task 3 – Global Content Insights
 
-- `05_Task_3_Global_Content_Insight.png` – Global content analysis dashboard
+- `05 task 3_global_content_insight.png` – Global content analysis dashboard
 
 ### Task 4 – Content Growth & Trends
 
-- `06_Task_4_Content_Growth_and_Trends.png` – Content growth and trend analysis
+- `06 task 4_content_growth_and_trend_analysis.png` – Content growth and trend analysis
 
 ### Power BI Project File
 
@@ -51,15 +51,19 @@ The project covers data import, data cleaning, data validation, data modeling, d
 ## 📌 Tasks Completed
 
 ### Task 1 – Data Preparation
+
 Imported, cleaned, transformed, modeled, and validated the Netflix dataset using Power Query and Power BI.
 
 ### Task 2 – Netflix Content Overview
+
 Created visualizations to analyze Netflix content and understand the distribution of movies and TV shows.
 
 ### Task 3 – Global Content Insights
+
 Analyzed Netflix content across different countries and regions using Power BI visualizations.
 
 ### Task 4 – Content Growth & Trend Analysis
+
 Analyzed the growth and distribution of Netflix content over time using multiple visualizations.
 
 ## 💡 Skills Demonstrated
@@ -78,3 +82,4 @@ Analyzed the growth and distribution of Netflix content over time using multiple
 ## 🏁 Conclusion
 
 This project demonstrates the use of Power BI to transform raw Netflix data into meaningful insights through data preparation, modeling, visualization, and dashboard development.
+
